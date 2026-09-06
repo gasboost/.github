@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="../assets/logo.svg" width="320" alt="gasboost" />
+<img src="https://github.com/user-attachments/assets/11e09588-b6d5-44c1-af06-ac573342e86b" width="320" alt="gasboost-logo" />
 
 # GASの開発を加速する。GASでビジネスを加速する。
 
@@ -30,7 +30,7 @@ Google Sheets、Drive、Gmail、Calendar などのサービスと直接つなが
 <br />
 
 <div align="center">
-<img src="../assets/concept.svg" width="900" alt="Google Workspace、Google Apps Script、gasboostと2つのboostの関係を示す概念図" />
+<img src="https://github.com/user-attachments/assets/9abc55eb-8366-4385-b302-edb77fafda68" width="900" alt="gasboost-concept" />
 </div>
 
 <br />
