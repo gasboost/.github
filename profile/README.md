@@ -1,54 +1,69 @@
-# gasboost
+<div align="center">
 
-gasboost は、Google Apps Script でアプリケーションを開発するための TypeScript ライブラリ群です。
+<img src="../assets/logo.svg" width="320" alt="gasboost" />
 
-Google Apps Script は、Google Sheets、Drive、Gmail、Calendar などの Google Workspace サービスへ簡単にアクセスできる一方で、実行環境や開発モデルには通常の TypeScript アプリケーションとは異なる制約があります。
+# GASの開発を加速する。GASでビジネスを加速する。
 
-gasboost はそれらの境界を扱う小さなライブラリを提供し、Google Apps Script を使ったアプリケーションを一般的な TypeScript アプリケーションに近い構成で開発できるようにします。
+**Boost GAS development. Boost business with GAS.**
 
-## パッケージ
+Google Apps Script の開発を加速し、  
+Google Apps Script でビジネスを加速するための TypeScript エコシステム。
 
-### アプリケーション
+[リポジトリを見る](https://github.com/orgs/gasboost/repositories)
 
-[gasboost/app](https://github.com/gasboost/app)
+</div>
 
-Google Apps Script アプリケーションのバックエンド、フロントエンド、ビルドを支援します。
+---
 
-- `@gasboost/app` — GET / POST / RPC を型安全に定義するバックエンドランタイム
-- `@gasboost/vite` — Google Apps Script 向けの Vite ビルド
-- `@gasboost/client` — フロントエンドから Google Apps Script を利用するためのクライアント
-- `@gasboost/react` — React アプリケーション向けの統合
+## なぜ gasboost なのか？
 
-### データベース
+Google Workspace は、多くのビジネスで日常的に利用されています。
 
-[gasboost/db](https://github.com/gasboost/db)
+Google Sheets、Drive、Gmail、Calendar などのサービスと直接つながる Google Apps Script は、業務改善や DX を進めるうえで非常に強力な選択肢です。
 
-Google Apps Script でデータを扱うためのライブラリです。
+一方で、Google Apps Script は小規模なスクリプトとして利用されることが多く、本格的なアプリケーション開発に必要なライブラリや開発基盤は、一般的な Web 開発と比べてまだ十分とは言えません。
 
-- `@gasboost/sheetorm` — Zod を利用した Google Sheets 向けの型安全な ORM
+**gasboost は、そのギャップを埋めます。**
 
-### テスト
+型安全性の高い汎用的なアプリケーション基盤を提供することで、Google Apps Script を単なるスクリプトではなく、継続的に開発・保守できるアプリケーション基盤として扱いやすくします。
 
-[gasboost/fake](https://github.com/gasboost/fake)
+<br />
 
-Google Apps Script の組み込み API に依存するコードを、Node.js 上で実行・テストするための実装を提供します。
+<div align="center">
+<img src="../assets/concept.svg" width="900" alt="Google Workspace、Google Apps Script、gasboostと2つのboostの関係を示す概念図" />
+</div>
 
-## 方針
+<br />
 
-gasboost は Google Apps Script を置き換えることを目的としていません。
+## 2つの boost
 
-Google Apps Script を使った一般的なアプリケーション開発で扱いにくい境界を補うことに集中しています。
+### ⚡ GASの開発を加速する
 
-- グローバル関数によるエントリーポイント
-- フロントエンドとバックエンド間の RPC
-- ビルド設定
-- Google Sheets へのデータアクセス
-- GAS API に依存するコードのローカルテスト
+TypeScript を中心とした、型安全で再利用可能な開発基盤によって Google Apps Script の開発を加速します。
 
-`SpreadsheetApp`、`DriveApp`、`GmailApp`、`CalendarApp` などの Google Workspace API は、これまで通り直接利用できます。
+### 📈 GASでビジネスを加速する
 
-gasboost は、それらを利用してアプリケーションを構築するための基盤を提供します。
+Google Workspace と密接につながる Google Apps Script を活用し、業務改善・自動化・アプリケーション開発を通じてビジネスそのものを加速します。
 
-## License
+## Philosophy
 
-MIT
+gasboost は Google Apps Script を置き換えるものではありません。
+
+Google Apps Script が持つ Google Workspace との強力な統合を活かしながら、本格的なアプリケーション開発に不足している部分を補います。
+
+<div align="center">
+
+### Google Apps Script を、もっと速く。  
+### Google Apps Script で、ビジネスをもっと速く。
+
+</div>
+
+---
+
+<div align="center">
+
+**boost GAS. boost business.**
+
+MIT License
+
+</div>
