@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620">
+<rect width="1200" height="620" rx="32" fill="#fff"/>
+<text x="600" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="#202124">gasboost の2つの boost</text>
+<g font-family="Arial,sans-serif">
+ <rect x="50" y="120" width="260" height="230" rx="24" fill="#f8f9fa" stroke="#dadce0"/>
+ <text x="180" y="165" text-anchor="middle" font-size="25" font-weight="700" fill="#202124">Google Workspace</text>
+ <text x="180" y="215" text-anchor="middle" font-size="20" fill="#4285F4">Sheets</text><text x="180" y="250" text-anchor="middle" font-size="20" fill="#EA4335">Gmail</text><text x="180" y="285" text-anchor="middle" font-size="20" fill="#34A853">Drive</text><text x="180" y="320" text-anchor="middle" font-size="20" fill="#FBBC04">Calendar</text>
+ <path d="M320 235h95" stroke="#5f6368" stroke-width="5"/><path d="M405 220l22 15-22 15" fill="none" stroke="#5f6368" stroke-width="5"/>
+ <rect x="430" y="120" width="340" height="230" rx="24" fill="#eef4ff" stroke="#aecbfa"/>
+ <text x="600" y="170" text-anchor="middle" font-size="27" font-weight="700" fill="#202124">Google Apps Script</text>
+ <rect x="485" y="205" width="230" height="85" rx="18" fill="#fff"/>
+ <text x="600" y="240" text-anchor="middle" font-size="30" font-weight="700" fill="#202124">gas<tspan fill="#4285F4">b</tspan><tspan fill="#EA4335">o</tspan><tspan fill="#FBBC04">o</tspan><tspan fill="#34A853">s</tspan>t</text>
+ <text x="600" y="275" text-anchor="middle" font-size="18" fill="#5f6368">TypeScript application foundation</text>
+ <path d="M780 235h95" stroke="#5f6368" stroke-width="5"/><path d="M865 220l22 15-22 15" fill="none" stroke="#5f6368" stroke-width="5"/>
+ <rect x="890" y="120" width="260" height="230" rx="24" fill="#f8f9fa" stroke="#dadce0"/>
+ <text x="1020" y="170" text-anchor="middle" font-size="25" font-weight="700" fill="#202124">Application</text>
+ <text x="1020" y="220" text-anchor="middle" font-size="19" fill="#5f6368">Web / RPC</text><text x="1020" y="255" text-anchor="middle" font-size="19" fill="#5f6368">Data access</text><text x="1020" y="290" text-anchor="middle" font-size="19" fill="#5f6368">Testing</text><text x="1020" y="325" text-anchor="middle" font-size="19" fill="#5f6368">Automation</text>
+ <path d="M600 365v55" stroke="#4285F4" stroke-width="5"/><path d="M585 410l15 22 15-22" fill="none" stroke="#4285F4" stroke-width="5"/>
+ <rect x="100" y="445" width="460" height="120" rx="24" fill="#e8f0fe"/>
+ <text x="330" y="490" text-anchor="middle" font-size="27" font-weight="700" fill="#1967d2">Boost GAS development</text>
+ <text x="330" y="530" text-anchor="middle" font-size="20" fill="#3c4043">型安全で再利用可能な開発基盤で、GAS開発を加速</text>
+ <rect x="640" y="445" width="460" height="120" rx="24" fill="#e6f4ea"/>
+ <text x="870" y="490" text-anchor="middle" font-size="27" font-weight="700" fill="#137333">Boost business with GAS</text>
+ <text x="870" y="530" text-anchor="middle" font-size="20" fill="#3c4043">Google Workspace を活用し、ビジネスを加速</text>
+</g></svg>
