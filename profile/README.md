@@ -41,14 +41,6 @@ Apps Script remains the runtime and the bridge to Google Workspace.
 
 gasboost builds a modern application development ecosystem around it.
 
-<br />
-
-<div align="center">
-<img src="https://github.com/user-attachments/assets/9abc55eb-8366-4385-b302-edb77fafda68" width="900" alt="gasboost concept" />
-</div>
-
-<br />
-
 ## Ecosystem
 
 gasboost is composed of focused packages that can be used independently or combined as a complete application stack.
