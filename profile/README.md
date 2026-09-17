@@ -179,7 +179,15 @@ Portability does not mean pretending Google Apps Script is another runtime.
 
 gasboost does not emulate Apps Script in order to make applications artificially runtime-agnostic.
 
-Instead, it encourages clear boundaries between application logic and infrastructure-specific code.
+One reason Apps Script is so valuable is how close it is to the business. For organizations already using Google Workspace, automation can start with tools they already have, without first introducing a separate application platform or infrastructure stack.
+
+But business automation is rarely static. Automation is often introduced because a business is growing, processes are becoming harder to manage, or existing operating structures need to change. As that happens, the systems supporting those processes need room to grow as well.
+
+gasboost treats portability as a way to preserve that path: start with Apps Script because it is accessible and deeply integrated with Workspace, while keeping enough application structure that individual responsibilities can move to different infrastructure later if scale or capability requires it.
+
+The goal is not to predict the final infrastructure on day one. It is to avoid making today's convenient starting point tomorrow's architectural dead end.
+
+Instead, gasboost encourages clear boundaries between application logic and infrastructure-specific code.
 
 Apps Script and Google Workspace APIs remain first-class parts of the system where they provide value, while business logic can remain portable where portability actually matters.
 
