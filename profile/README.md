@@ -16,6 +16,26 @@ Build production-grade applications on Google Apps Script with modern TypeScript
 
 ---
 
+## Why "Boost"?
+
+The name gasboost reflects three goals.
+
+### Boost GAS
+
+Move Google Apps Script beyond ad-hoc scripting and make it a stronger foundation for structured application development.
+
+gasboost does not replace Apps Script. It builds on its strengths: simple deployment, managed infrastructure, and deep integration with Google Workspace.
+
+### Boost Development
+
+Improve the development experience and software quality of Apps Script applications with TypeScript, testing, clear application boundaries, structured data access, authentication, authorization, and modern tooling.
+
+### Boost Business
+
+Make it easier to turn Google Workspace automation into maintainable business applications.
+
+The goal is not only to make Apps Script code easier to write, but to make the systems built with it easier to grow, operate, and evolve.
+
 ## Why gasboost?
 
 Google Apps Script is one of the simplest ways to build applications deeply integrated with Google Workspace.
@@ -152,6 +172,18 @@ gasboost does not try to turn Apps Script into Node.js.
 The direct integration between Apps Script and Google Workspace is one of its greatest strengths.
 
 gasboost preserves that advantage while improving the application architecture around it.
+
+### Portability without emulation
+
+Portability does not mean pretending Google Apps Script is another runtime.
+
+gasboost does not emulate Apps Script in order to make applications artificially runtime-agnostic.
+
+Instead, it encourages clear boundaries between application logic and infrastructure-specific code.
+
+Apps Script and Google Workspace APIs remain first-class parts of the system where they provide value, while business logic can remain portable where portability actually matters.
+
+**Use Apps Script for what Apps Script is good at. Keep the rest of the application free to evolve.**
 
 ### TypeScript first
 
