@@ -4,6 +4,8 @@
 
 # gasboost
 
+**English** | [日本語](./README.ja.md)
+
 ### The modern TypeScript ecosystem for Google Apps Script.
 
 Build production-grade applications on Google Apps Script with modern TypeScript tooling, structured application architecture, authentication, authorization, data access, testing, and realtime synchronization.
